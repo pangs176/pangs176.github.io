@@ -1,0 +1,19 @@
+body{
+  background-color: black;
+}
+
+
+ .line{
+        position: fixed;
+        width: 30%;
+        height: 8%;
+        bottom: 36%;
+        right: 5%;
+        border-style: solid;
+        border-color: grey;
+        border-width: 0.5pt;
+        border-radius: 25px;
+        transition-duration: 0.2s;
+        margin: 0 auto;
+
+      }

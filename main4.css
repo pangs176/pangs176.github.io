@@ -1,0 +1,135 @@
+
+
+
+body {background-color: #92a8d1;}
+
+@font-face { font-family: roboto-regular; 
+			 src: url(@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');); } 
+p{
+	font-family: 'Pacifico', cursive;
+}
+
+
+
+
+
+#one {
+	background-color: pink;
+	position:absolute;
+	margin-left: 1000px;
+	margin-top: 0px;
+	width:30%;
+	
+}
+
+#two {
+	background-color: pink;
+	position:absolute;
+margin-left: 0px;
+	margin-top: 200px;
+	width:30%;
+}
+
+
+
+#three {
+	background-color: pink;
+		position:absolute;
+	
+	margin-top: 500px;
+	
+	    margin-left: 500px;
+	    width:30%;
+	
+}
+
+
+#four {
+		background-color: pink;
+	position:absolute;
+	margin-top: 1000px;
+	width:450px;
+
+	 margin-left: 100px;
+	 width:30%;
+
+}
+
+
+
+
+
+
+
+
+
+
+#one1 {
+
+	background-color: yellow;
+	position:absolute;
+	height: 200px;
+	width:100px;
+	margin-top: 400px;
+	margin-left: 1000px;
+}
+
+
+
+#one2 {
+
+	background-color: yellow;
+	position:absolute;
+	height: 800px;
+	width:100px;
+	margin-top: 2000px;
+	margin-left: 400px;
+
+}
+
+
+
+
+#one3 {
+
+	background-color: yellow;
+	position:absolute;
+	height: 800px;
+	width:100px;
+	margin-top: 4000px;
+	margin-left: 800px;
+}
+
+
+#one4 {
+
+	
+	background-color: yellow;
+	position:absolute;
+	height: 800px;
+	width:100px;
+	margin-top: 8000px;
+	margin-left: 3000px;
+
+}
+
+
+#one5 {
+	
+	background-color: yellow;
+	position:absolute;
+	height: 800px;
+	width:100px;
+	margin-top: 20000px;
+	margin-left: 2000px;
+
+}
+
+
+
+
+
+
+
+
+

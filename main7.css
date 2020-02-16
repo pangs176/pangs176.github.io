@@ -1,0 +1,44 @@
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  text-decoration-color: white;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+#one{
+   shape-outside: polygon( 20px 30px 180px 900px at 50% 50%);
+  width: 200px;
+  height: 500px;
+  margin-left: 300px;
+  opacity: .2;
+}
+
+
+
+
+
+#two{
+   shape-outside: ellipse(100px 900px at 50% 50%);
+  width: 200px;
+  height: 500px;
+  margin-left: 800px;
+  opacity: .2;
+}
+
+
+
+
+
+
+
+
+
+
+
+

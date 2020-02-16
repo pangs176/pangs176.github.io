@@ -1,19 +1,52 @@
-body{
-  background-color: black;
+#title {
+	position:absolute;
+	margin-left: 930px;
+	margin-top: 5px;
+	text-align:right;
+
 }
 
 
- .line{
-        position: fixed;
-        width: 30%;
-        height: 8%;
-        bottom: 36%;
-        right: 5%;
-        border-style: solid;
-        border-color: grey;
-        border-width: 0.5pt;
-        border-radius: 25px;
-        transition-duration: 0.2s;
-        margin: 0 auto;
+#one {
+	position:absolute;
+	margin-top: 60px;
+	height: 200px;
+	width:100px;
+	text-align:right;
+	margin-left: 1000px;
+}
 
-      }
+#two {
+	position:absolute;
+	margin-top: 60px;
+	height: 200px;
+	width:100px;
+	text-align:right;
+margin-left: 1200px;
+}
+
+
+
+#three {
+		position:absolute;
+		margin-top: 60px;
+		height: 200px;
+		width:100px;
+	    text-align:right;
+	    margin-left: 800px;
+	
+}
+
+
+#four {
+	position:absolute;
+	margin-top: 400px;
+	width:450px;
+	text-align:left;
+	 margin-left: 100px;
+
+}
+
+
+
+
