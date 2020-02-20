@@ -1,0 +1,98 @@
+
+body {
+ 
+    text-align: center;
+    overflow: hidden;
+}
+div {
+    background-color: red;
+    display: inline-block;
+    width: 4px;
+    vertical-align: middle; /* Feel free to change this value, here are your options: baseline | sub | super | top | text-top | middle | bottom | text-bottom | <percentage> | <length> | inherit */
+    
+    /* Fix for IE7 and below */
+    zoom: 1;
+    *display: inline;
+}
+
+
+.special {
+	background-color: orange;
+   height: 1000px;
+   width: 2px;
+   transition: transform 0.5s;
+}
+
+
+
+  
+
+.one {
+	 background-color: red;
+    height: 1000px;
+    width: 2px;
+   transition: transform 0.5s;
+}
+
+
+
+
+
+
+.two{
+	 background-color: blue;
+    height: 1000px;
+      transition: transform 0.5s;
+}
+
+
+
+.two:hover {
+  transform: translate(100px, 5px);
+  transform: scale(30);
+}
+
+
+
+.three {
+	 background-color: green;
+    height: 1000px;
+     width: 2px;
+    transition: transform 0.5s;
+}
+
+.four {
+	 background-color: purple;
+    height: 1000px;
+    transition: transform 0.5s;
+}
+
+.four:hover {
+  transform: translate(100px, 5px);
+  transform: scale(5);
+}
+
+
+.five{
+ background-color: white;
+    height: 1000px;
+    margin-left: 60px;
+     width: 2px;
+    transition: transform 0.5s;
+}
+
+.six{
+ background-color: black;
+    height: 1000px;
+      width: 50px;
+      transition: transform 0.5s;
+}
+
+.six:hover {
+  transform: translate(100px, 5px);
+  transform: scale(100);
+
+}
+
+
+

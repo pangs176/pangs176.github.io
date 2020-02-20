@@ -1,0 +1,128 @@
+
+ .notfound{
+
+position: absolute;
+background-color: yellow;
+margin-top: 300px;
+right: 46%;
+z-index: 5;
+}
+
+
+.x{
+  font-size: 40pt;
+ position: absolute;
+margin-top: 300px;
+right: 46%;
+z-index: 5;
+}
+
+
+
+ .notfound1{
+  position: absolute;
+  font-size: 20pt;
+  margin-top: 200px;
+  right: 26%;
+  background-color: yellow;
+  z-index: 4;
+}
+
+.x1{
+  font-size: 80pt;
+ position: absolute;
+margin-top: 200px;
+right: 26%;
+z-index: 4;
+}
+
+
+ .notfound2{
+  font-size: 30pt;
+position: absolute;
+  margin-top: 500px;
+  right: 76%;
+  background-color: yellow;
+  z-index: 3;
+}
+
+.x2{
+  font-size: 120pt;
+ position: absolute;
+margin-top: 500px;
+right: 76%;
+z-index: 3;
+}
+
+
+ .notfound3{
+  position: absolute;
+  font-size: 40pt;
+    margin-top: 800px;
+  right: 10%;
+  background-color: yellow;
+  z-index: 2;
+}
+
+
+.x3{
+  font-size: 160pt;
+ position: absolute;
+margin-top: 800px;
+right: 10%;
+z-index: 2;
+}
+
+ .notfound4{
+  position: absolute;
+  font-size: 50pt;
+    margin-top: 300px;
+  right: 46%;
+  background-color: yellow;
+  z-index: 1;
+}
+
+
+.x4{
+  font-size: 200pt;
+ position: absolute;
+margin-top: 300px;
+right: 46%;
+z-index: 1;
+}
+
+ .notfound5{
+  position: absolute;
+  font-size: 60pt;
+    margin-top: 100px;
+  right: 10%;
+  background-color: yellow;
+}
+
+
+.x5{
+  font-size: 240pt;
+ position: absolute;
+margin-top: 100px;
+right: 10%;
+}
+
+
+ .notfound6{
+  position: absolute;
+  font-size: 70pt;
+    margin-top: 60px;
+  right: 90%;
+  background-color: yellow;
+}
+
+
+.x6{
+  font-size: 280pt;
+ position: absolute;
+margin-top: 60px;
+right: 90%;
+}
+
+
+

@@ -1,0 +1,39 @@
+
+
+      .line{
+        position: fixed;
+        width: 8px;
+        height: 50%;
+        left: 3%;
+        background-color: red;
+      }
+
+        .line:hover {
+  transform: scale(2);
+  cursor: not-allowed;
+}
+
+
+
+
+   .line2{
+        position: fixed;
+        width: 10px;
+        height: 50%;
+        left: 10%;
+        background-color: red;
+      }
+
+
+        .line2:hover {
+  transform: scale(2);
+  cursor: not-allowed;
+
+      }
+
+
+
+
+
+
+     

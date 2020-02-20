@@ -1,0 +1,374 @@
+body{
+background: rgb(16,10,143);
+background: -moz-radial-gradient(circle, rgba(16,10,143,1) 5%, rgba(23,41,194,1) 25%, rgba(30,233,146,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(16,10,143,1) 5%, rgba(23,41,194,1) 25%, rgba(30,233,146,1) 100%);
+background: radial-gradient(circle, rgba(16,10,143,1) 5%, rgba(23,41,194,1) 25%, rgba(30,233,146,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#100a8f",endColorstr="#1ee992",GradientType=1);
+
+}
+
+
+.x{
+ position: absolute;
+ background-color: blue;
+margin-top: 10px;
+right: 46%;
+}
+
+.x1{
+ position: absolute;
+ background-color: blue;
+margin-top: -30px;
+right: 20%;
+}
+
+
+.x2{
+ position: absolute;
+ background-color: blue;
+margin-top: 10px;
+right: 86%;
+}
+
+.x3{
+ position: absolute;
+ background-color: blue;
+margin-top: -50px;
+right: 70%;
+}
+
+.x4{
+ position: absolute;
+ background-color: blue;
+margin-top: 80px;
+right: 55%;
+}
+
+.x5{
+ position: absolute;
+ background-color: blue;
+margin-top: -100px;
+right: 46%;
+}
+
+
+.x6{
+ position: absolute;
+ background-color: blue;
+margin-top: 10px;
+right: 30%;
+}
+
+
+.x7{
+ position: absolute;
+ background-color: blue;
+margin-top: -130px;
+right: 46%;
+}
+
+.x8{
+ position: absolute;
+ background-color: blue;
+margin-top: 30px;
+right: 80%;
+}
+
+.x9{
+ position: absolute;
+ background-color: blue;
+margin-top: -400px;
+right: 46%;
+}
+
+.x10{
+ position: absolute;
+ background-color: blue;
+margin-top: 10px;
+right: 85%;
+}
+
+.x11{
+ position: absolute;
+ background-color: blue;
+margin-top: -250px;
+right: 5%;
+}
+
+.x12{
+ position: absolute;
+ background-color: blue;
+margin-top: 5px;
+right: 63%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+margin: 500px;
+}
+
+.box {
+background: red;
+border-width: 2px;
+border-style: solid;
+border-color: black;
+height: 1px;
+margin: 50px;
+width: 1px;
+position:fixed;
+
+}
+
+.container:hover .box {
+transform: scale(200);
+}
+
+.box1 {
+transition: all 1.3s;
+z-index: 1;
+}
+
+.box2 {
+transition: all 1.3s 0.5s;
+z-index: 2;
+}
+
+.box3 {
+transition: all 1.3s 1s;
+z-index: 2;
+}
+.box4 {
+transition: all 1.3s;
+z-index: 2;
+}
+
+
+
+
+
+
+.box5 {
+transition: all 1.3s 1s;
+z-index: 2;
+}
+
+.box6 {
+transition: all 1.3s 1s;
+z-index: 3;
+}
+.box7 {
+transition: all 1.3s;
+}
+
+.box8 {
+transition: all 1.3s 1s;
+}
+
+.box9 {
+transition: all 1.3s 1s;
+}
+.box10 {
+transition: all 1.3s;
+}
+
+.box11 {
+transition: all 1.3s 1s;
+}
+
+.box12 {
+transition: all 1.3s 1s;
+}
+.box13 {
+transition: all 1.3s;
+}
+
+.box14 {
+transition: all 1.3s 1s;
+}
+
+.box15 {
+transition: all 1.3s 1s;
+}
+
+.box16 {
+transition: all 1.3s 1s;
+}
+.box17 {
+transition: all 1.3s;
+}
+
+.box18 {
+transition: all 1.3s 1s;
+}
+
+.box19 {
+transition: all 1.3s 1s;
+}
+.box20 {
+transition: all 1.3s;
+}
+
+
+
+    .container {
+margin: 500px;
+
+}
+
+.box {
+background: blue;
+display: inline-block;
+height: 1px;
+margin: 20px;
+width: 3px;
+border-color: green;
+border-width: 0.5px;
+position:absolute;
+
+}
+
+.container:hover .box {
+transform: scale(700);
+}
+
+.box21 {
+transition: all  0.5s ease-out;
+}
+.box22 {
+transition: all 1s ease-in;
+}
+
+.box23 {
+transition: all 0.5s ease-in;
+}
+.box24 {
+transition: all 3.5s ease-in;
+}
+
+.box25 {
+transition: all 0.5s ease-in;
+}
+
+.box26 {
+transition: all 4.5s ease-in;
+}
+.box27 {
+transition: all 0.5s ease-out;
+}
+
+.box28 {
+transition: all 0.5s ease-out;
+}
+
+.box29 {
+transition: all 7.5s ;
+}
+.box30 {
+transition: all 1.3s;
+}
+.box31 {
+transition: all  8.5s ease-in;
+}
+
+.box32 {
+transition: all 0.5s ease-in;
+}
+.box33 {
+transition: all 0.5s ease-in;
+}
+
+.box34 {
+transition: all 0.5s ease-out;
+}
+
+.box35 {
+transition: all 1.5s ease-out;
+}
+
+.box36 {
+transition: all 1.3s 1s ease-in;
+}
+.box37 {
+transition: all 0.5s ease-out;
+}
+
+.box38 {
+transition: all 9.5s s ease-out;
+}
+
+.box39 {
+transition: all  0.5s ease-out;
+}
+.box40 {
+transition: all 5.5s ease-out;
+z-index:2;
+}
+
+
+
+
+
