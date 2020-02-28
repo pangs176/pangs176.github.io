@@ -1,10 +1,10 @@
 function changeHeading () {
-	document.getElementById('heading').style.backgroundColor="lightblue"
+	document.getElementById('heading1').style.backgroundColor="lightblue"
 }
-Now we can do a lot of fun stuff:
 
-function changeHeading () {
-	document.getElementById('heading').innerHTML="i clicked the button"
+
+function changeHeading2 () {
+	document.getElementById('heading2').style.backgroundColor="pink"
 }
 
 
