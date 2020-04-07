@@ -1,0 +1,1091 @@
+
+
+.one{
+  position:fixed;
+  height: 25%;
+  background-color: black;
+  top: 0;
+ width: 100%;
+
+
+}
+
+
+
+.two{
+  position:absolute;
+  width: 5%;
+  height: 3%;
+  margin-left: 10%;
+  top: 10%;
+  background-color: white;
+
+
+}
+
+.three{
+  position:absolute;
+  width: 5%;
+  height: 3%;
+    top: 10%;
+  margin-left: 15%;
+  background-color: white;
+
+
+}
+
+
+.four{
+  position:absolute;
+  width: 5%;
+  height: 3%;
+  top: 10%;
+  margin-left: 20%;
+  background-color: white;
+
+
+}
+
+.five{
+  position:absolute;
+  width: 5%;
+  height: 3%;
+  top: 10%;
+  margin-left: 30%;
+  background-color: white;
+
+
+}
+
+.six{
+  position:absolute;
+  width: 5%;
+  height: 3%;
+  top: 10%;
+  margin-left: 35%;
+  background-color: white;
+
+
+}
+
+.seven{
+  position:absolute;
+  width: 5%;
+  height: 3%;
+  top: 10%;
+  margin-left: 40%;
+  background-color: white;
+
+
+}
+
+.eight{
+  position:absolute;
+  width: 5%;
+  height: 3%;
+  top: 10%;
+  margin-left: 45%;
+  background-color: white;
+
+
+}
+
+.nine{
+  position:absolute;
+  width: 5%;
+  height: 3%;
+  top: 10%;
+  margin-left: 50%;
+  background-color: white;
+
+
+}
+
+.ten{
+  position:absolute;
+  width: 5%;
+  height: 3%;
+  top: 10%;
+  margin-left: 55%;
+  background-color: white;
+
+
+}
+
+      #rightbox2{
+        position: fixed;
+        width: 17%;
+        height: 8%;
+        bottom: 60%;
+        right: 11%;
+        border-style: solid;
+        border-color: grey;
+        border-width: 0.5pt;
+        border-radius: 25px;
+        transition-duration: 0.3s;
+        margin: 0 auto;
+        z-index:1;
+
+
+      }
+            #red1{
+            position: fixed;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              background-color: white;
+              border-width: 0.5pt;
+              border-radius: 25px;
+              transition-delay: 0.25s;
+
+              bottom: 60%;
+              right: 11%;
+            }
+
+            #red2{
+            position: fixed;
+            background-color: white;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              border-width: 1px;
+              transition-delay: 0.5s;
+              bottom: 58%;
+              right: 13%;
+            }
+
+            #red3{
+            position: fixed;
+            background-color: white;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              border-width: 1px;
+              transition-delay: 0.75s;
+              bottom: 56%;
+              right: 15%;
+
+            }
+
+            #red4{
+            position: fixed;
+            background-color: white;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              border-width: 1px;
+              transition-delay: 1s;
+              bottom: 54%;
+              right: 17%;
+
+            }
+
+
+            #red5{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              border-width: 1px;
+              transition-delay: 1.25s;
+              bottom: 52%;
+              right: 19%;
+
+            }
+
+            #red6{
+            position: fixed;
+            background-color: white;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              border-width: 1px;
+              transition-delay: 1.5s;
+              bottom: 50%;
+              right: 21%;
+
+            }
+
+            #red7{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              border-width: 1px;
+
+              transition-delay: 1.75s;
+              bottom: 48%;
+              right: 23%;
+
+            }
+            #red8{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+              transition-delay: 2s;
+              bottom: 46%;
+              right: 25%;
+
+            }
+
+            #red9{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+              transition-delay: 2.15s;
+              bottom: 44%;
+              right: 27%;
+
+            }
+
+            #red10{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+              transition-delay: 2.3s;
+              bottom: 42%;
+              right: 29%;
+
+            }
+
+            #red11{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              border-width: 1px;
+              transition-delay: 2.45;
+              bottom: 40%;
+              right: 31%;
+
+            }
+
+            #red12{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+            z-index:3;
+              transition-delay: 2.6s;
+              bottom: 38%;
+              right: 33%;
+            }
+
+            #red13{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+            z-index:3;
+              transition-delay: 2.75s;
+              bottom: 36%;
+              right: 35%;
+
+            }
+
+            #red14{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+            z-index:3;
+              transition-delay: 2.9s;
+              bottom: 34%;
+              right: 37%;
+
+            }
+
+            #red15{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+            z-index:3;
+              transition-delay: 3s;
+              bottom: 32%;
+              right:39%;
+            }
+
+            #red16{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+            z-index:3;
+              transition-delay: 3.05s;
+              bottom: 30%;
+              right: 41%;
+            }
+
+
+            #red17{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+            z-index:3;
+              transition-delay: 3.1s;
+              bottom: 28%;
+              right: 43%;
+
+            }
+
+
+
+            #red18{
+            position: fixed;
+            background-color: white;
+            border-radius: 25px;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+            z-index:3;
+              transition-delay: 3.15s;
+              bottom: 26%;
+              right: 45%;
+
+            }
+
+            #red19{
+            position: fixed;
+            background-color: white;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+            z-index:3;
+              transition-delay: 3.2s;
+              bottom: 24%;
+              right: 47%;
+
+            }
+
+            #red20{
+            position: fixed;
+            background-color: white;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+              z-index:3;
+              transition-delay: 3.25s;
+              bottom: 22%;
+              right: 49%;
+
+
+            }
+            #red21{
+            position: fixed;
+            background-color: white;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              border-width: 1px;
+            z-index:3;
+              transition-delay: 3.35s;
+              bottom: 20%;
+              right: 51%;
+
+            }
+
+            #red22{
+            position: fixed;
+            background-color: white;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              border-width: 1px;
+            z-index:3;
+              transition-delay: 3.45s;
+              bottom: 18%;
+              right: 53%;
+
+            }
+
+            #red23{
+            position: fixed;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+              z-index:3;
+              transition-delay: 3.5s;
+              bottom: 16%;
+              right: 55%;
+
+            }
+
+            #red24{
+            position: fixed;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+              z-index:3;
+              transition-delay: 3.55s;
+              bottom: 14%;
+              right: 57%;
+
+            }
+
+            #red25{
+            position: fixed;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+              z-index:3;
+              transition-delay: 3.6s;
+              bottom: 12%;
+              right: 59%;
+
+            }
+
+            #red26{
+            position: fixed;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+              z-index:3;
+              transition-delay: 3.65s;
+              bottom: 10%;
+              right: 61%;
+
+            }
+
+            #red27{
+            position: fixed;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+              z-index:3;
+              transition-delay: 3.7s;
+              bottom: 8%;
+              right: 63%;
+
+            }
+
+            #red28{
+            position: fixed;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color: white;
+              border-width: 1px;
+              z-index:3;
+              transition-delay: 3.75s;
+              bottom: 6%;
+              right: 65%;
+
+            }
+
+            #red29{
+            position: fixed;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+              transition-delay: 3.8s;
+              bottom: 4%;
+              right: 67%;
+
+            }
+
+
+
+            #red30{
+            position: fixed;
+            width: 17%;
+            height: 8%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color: white;
+              border-width: 1px;
+
+              transition-delay: 4.35s;
+              bottom: 36%;
+              right: 5%;
+
+            }
+
+            #red31{
+            position: fixed;
+            width: 32%;
+            height: 10%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+
+              transition-delay: 3.9s;
+              bottom: 36%;
+              right: 5%;
+
+            }
+
+            #red32{
+            position: fixed;
+            background-color:white;
+            width: 34%;
+            height: 12%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              border-width: 1px;
+              transition-delay: 4s;
+              bottom: 36%;
+              right: 5%;
+
+            }
+
+            #red33{
+            position: fixed;
+            background-color:white;
+            width: 36%;
+            height: 14%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              border-width: 1px;
+              transition-delay: 4.05s;
+              bottom: 36%;
+              right: 5%;
+
+            }
+
+            #red34{
+            position: fixed;
+            width: 38%;
+            height: 16%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+
+              transition-delay: 4.1s;
+              bottom: 36%;
+              right: 5%;
+
+
+
+            }
+
+            #red35{
+            position: fixed;
+            width: 40%;
+            height: 18%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+
+              transition-delay: 4.15s;
+              bottom: 36%;
+              right: 5%;
+
+            }
+
+            #red36{
+            position: fixed;
+            width: 42%;
+            height: 20%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color: white;
+              border-width: 1px;
+
+              transition-delay: 4.25s;
+              bottom: 36%;
+              right: 5%;
+
+            }
+
+            #red37{
+            position: fixed;
+            width: 44%;
+            height: 22%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color: white;
+              border-width: 1px;
+
+              transition-delay: 4.3s;
+              bottom: 36%;
+              right: 5%;
+            }
+
+            #red38{
+            position: fixed;
+            width: 46%;
+            height: 24%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color:white;
+              border-width: 1px;
+
+              transition-delay: 3.85s;
+              bottom: 36%;
+              right: 5%;
+            }
+
+
+
+            #red39{
+            position: fixed;
+            width: 48%;
+            height: 26%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color: white;
+              border-width: 1px;
+
+              transition-delay: 4.4s;
+              bottom:21%;
+              bottom: 36%;
+              right: 5%;
+
+            }
+
+            #red40{
+            position: fixed;
+            width: 50%;
+            height: 28%;
+              border-style: solid;
+              border-radius: 25px;
+              border-color: grey;
+              background-color: white;
+              border-width: 1px;
+
+              transition-delay: 4.45s;
+              bottom: 36%;
+              right: 5%;
+            }
+
+
+
+                        #red41{
+                        position: fixed;
+                        width: 52%;
+                        height: 30%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color: white;
+                          border-width: 1px;
+
+                          transition-delay: 4.5s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red42{
+                        position: fixed;
+                        width: 54%;
+                        height: 32%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color:white;
+                          border-width: 1px;
+
+                          transition-delay: 4.55s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red43{
+                        position: fixed;
+                        background-color:white;
+                        width: 56%;
+                        height: 34%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          border-width: 1px;
+                          transition-delay: 4.56s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red44{
+                        position: fixed;
+                        background-color:white;
+                        width: 58%;
+                        height: 36%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          border-width: 1px;
+                          transition-delay: 4.6s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red45{
+                        position: fixed;
+                        width: 60%;
+                        height: 38%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color:white;
+                          border-width: 1px;
+
+                          transition-delay: 4.65s;
+                          bottom: 36%;
+                          right: 5%;
+
+
+
+                        }
+
+                        #red46{
+                        position: fixed;
+                        width: 62%;
+                        height: 40%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color:white;
+                          border-width: 1px;
+
+                          transition-delay: 4.7s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red47{
+                        position: fixed;
+                        width: 64%;
+                        height: 42%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color: white;
+                          border-width: 1px;
+
+                          transition-delay: 4.75s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red48{
+                        position: fixed;
+                        width: 66%;
+                        height: 44%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color: white;
+                          border-width: 1px;
+
+                          transition-delay: 4.8s;
+                          bottom: 36%;
+                          right: 5%;
+                        }
+
+                        #red49{
+                        position: fixed;
+                        width: 68%;
+                        height: 46%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color:white;
+                          border-width: 1px;
+
+                          transition-delay: 4.85s;
+                          bottom: 36%;
+                          right: 5%;
+                        }
+
+
+
+                        #red50{
+                        position: fixed;
+                        width: 70%;
+                        height: 48%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color: white;
+                          border-width: 1px;
+
+                          transition-delay: 4.9s;
+
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red51{
+                        position: fixed;
+                        width: 72%;
+                        height: 50%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color: white;
+                          border-width: 1px;
+
+                          transition-delay: 4.95s;
+
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red52{
+                        position: fixed;
+                        width: 74%;
+                        height: 52%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color:white;
+                          border-width: 1px;
+
+                          transition-delay: 5s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red53{
+                        position: fixed;
+                        background-color:white;
+                        width: 76%;
+                        height: 54%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          border-width: 1px;
+                          transition-delay: 5.05s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red54{
+                        position: fixed;
+                        background-color:white;
+                        width: 78%;
+                        height: 56%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          border-width: 1px;
+                          transition-delay: 5.1s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red55{
+                        position: fixed;
+                        width: 80%;
+                        height: 58%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color:white;
+                          border-width: 1px;
+
+                          transition-delay: 5.15s;
+                          bottom: 36%;
+                          right: 5%;
+
+
+
+                        }
+
+                        #red56{
+                        position: fixed;
+                        width: 82%;
+                        height: 60%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color:white;
+                          border-width: 1px;
+
+                          transition-delay: 5.2s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red57{
+                        position: fixed;
+                        width: 84%;
+                        height: 62%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color: white;
+                          border-width: 1px;
+
+                          transition-delay: 5.25s;
+                          bottom: 36%;
+                          right: 5%;
+
+                        }
+
+                        #red58{
+                        position: fixed;
+                        width: 86%;
+                        height: 64%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color: white;
+                          border-width: 1px;
+
+                          transition-delay: 5.3s;
+                          bottom: 36%;
+                          right: 5%;
+                        }
+
+                        #red59{
+                        position: fixed;
+                        width: 88%;
+                        height: 66%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color:white;
+                          border-width: 1px;
+
+                          transition-delay: 5.35s;
+                          bottom: 36%;
+                          right: 5%;
+                        }
+
+                        #red60{
+                        position: fixed;
+                        width: 90%;
+                        height: 68%;
+                          border-style: solid;
+                          border-radius: 25px;
+                          border-color: grey;
+                          background-color:white;
+                          border-width: 1px;
+
+                          transition-delay: 5.4s;
+                          bottom: 36%;
+                          right: 5%;
+                        }
