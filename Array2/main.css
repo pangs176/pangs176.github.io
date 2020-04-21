@@ -1,0 +1,9 @@
+#ingredients {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 300px;
+	border:1px;
+
+}
+
