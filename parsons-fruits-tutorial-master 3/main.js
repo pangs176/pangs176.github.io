@@ -93,19 +93,9 @@ for(var i=0; i<fruits.length; i++){
 			'class': 'box'
 		})
 		.data('fruit', fruits[i])
-		.data('clicked', false)
 		.html(fruits[i].name)
 		.css({'background-color': fruits[i].color})
-		.click(function(){
-			if($(this).data('clicked') ===  false){
-				$(this).append( '<span> is ' +  $(this).data("fruit").shape + '</span>')
-				$(this).data('clicked', true)
-			}
-			else{
-				$(this).find('span').remove()
-				$(this).data('clicked', false)
-			}
-		})
+		.click(function(){console.log($(this).data("fruit").name)})
 
 	$('#ingredients').append(fruitDiv)
 }
