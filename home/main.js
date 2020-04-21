@@ -41,3 +41,19 @@ for(var i=0; i<dates.length; i++){
 }
 
 
+for(var i=0; i<dates.length; i++){
+	$('#text').append('<div class="box">' + dates[i].observations + '</div>')
+
+.click(function(){
+			if($(this).data('clicked') ===  false){
+				$(this).append( '<span> is ' +  $(this).data("date").description+ '</span>')
+				$(this).data('clicked', true)
+			}
+			else{
+				$(this).find('span').remove()
+				$(this).data('clicked', false)
+			}
+		})
+
+	$('#text').append(dates)
+}
