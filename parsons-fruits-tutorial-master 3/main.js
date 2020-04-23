@@ -92,10 +92,8 @@ for(var i=0; i<fruits.length; i++){
 	var fruitDiv = $('<div/>', {
 			'class': 'box'
 		})
-		.data('fruit', fruits[i])
 		.html(fruits[i].name)
-		.css({'background-color': fruits[i].color})
-		.click(function(){console.log($(this).data("fruit").name)})
 
 	$('#ingredients').append(fruitDiv)
 }
+
