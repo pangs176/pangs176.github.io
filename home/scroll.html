@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Scroll</title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="main2.js"></script>
+
+
+	<a href="index.html">To Home</a>
+
+	<style type="text/css">
+		#scrollContainer {
+			width: 100%;
+			overflow: scroll;
+		}
+
+		.scrollBox {
+			width: 100%;
+			height: 100vh;
+			opacity: 0;
+		}
+
+		.scrollBox .emoji {
+			position: fixed;
+			font-size: 100px;
+			top:40vh;
+			left: 45vw;
+		}
+	</style>
+
+</head>
+
+<body>
+
+<div id="scrollContainer"></div>
+
+</body>
+	<script type="text/javascript">
+
+		//adds a div onto the page for each element in the fruits array
+		for(var i=0; i<bedrooms.length; i++){
+			var bedroomDiv = $('<div/>', {
+					id: i,
+					'class': 'scrollBox'
+				})
+				.html('<div class="emoji">' + bedrooms[i].description + '</div>')
+			$('#scrollContainer').append(bedroomDiv)
+		}
+
+		//this function will run when the page is scrolled
+		$(window).scroll(function() {
+			var scroll = $(window).scrollTop();
+			var height = $(window).height();
+
+			console.log(scroll, height)
+			//works out which number div we're on
+			var currentDiv = Math.floor(scroll/height)
+
+			if(scroll%height < height/2){
+				opacity = ((scroll%height)/height)*2
+			}
+
+			else{
+				opacity = ((height - (scroll%height))/height)*2
+			}
+
+			//get rid of any other traces
+			$('.scrollBox').css({'opacity': 0})
+
+			//set the current emoji to the correct opacity
+			$('#' + currentDiv).css({'opacity': opacity})
+		})
+
+	</script>
+</html>

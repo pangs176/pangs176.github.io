@@ -1,0 +1,59 @@
+
+<html>
+<head>
+  <title>Kitchen</title>
+  <meta charset="utf-8">
+ <script type="text/javascript" src="Jquery.min.js"></script>
+  <script type="text/javascript" src="main2.js"></script>
+
+ <a href="index4.html">To Bedroom</a>
+
+  <style type="text/css">
+    .mouseDownBox {
+      position: fixed;
+      font-size: 14px;
+      border: 2px solid black;
+      background-color: white;
+    }
+
+    #painting {
+      position: fixed;
+      font-size: 10px;
+      margin-left: 300px;
+      max-width: 900px;
+      width: 180%;
+      height: 400%;
+     background-image: url("pics/kitchen.jpg")
+    }
+
+
+  </style>
+
+</head>
+<body>
+<div id="painting"></div>
+</body>
+
+  <script type="text/javascript">
+    var counter = 0;
+
+    $(window).click(function( event ) {
+      var kitchensDiv = $('<div/>', {
+        'class': 'mouseDownBox'
+      })
+      .html(kitchens[counter%kitchens.length].description)
+      .css({'top': event.pageY, 'left': event.pageX})
+
+      counter = counter+1;
+      console.log(counter)
+      $('body').append(kitchensDiv)
+    })
+
+
+  </script>
+</html>
+
+
+
+
+

@@ -1,5 +1,7 @@
 
+
 #text {
+	font-family: 'Patrick Hand', cursive;
 	position: absolute;
 	right: 20%;
 	top:10%;
@@ -16,31 +18,29 @@
   border: 2px solid black;
   padding: 50px;
   margin: 20px;
+  	background-color: white;
 }
 
 
+.livingroom {
+position:absolute;
+  width: 5%;
+  height: 3%;
+    top: 10%;
+  margin-left: 15%;
+  background-color: black;
 
-#dates{
-top:50%;
-right: 36%;
-      
-}
-
-#dates2{
-top:70%;
-right: 26%;
-}
-
-#dates3{
-top:70%;
-right: 66%;
-}
-
-#dates4{
-top:20%;
-right: 46%;
 }
 
 
 
 
+.kitchen {
+	
+}
+
+
+
+.bedroom {
+	
+}
