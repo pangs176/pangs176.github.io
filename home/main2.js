@@ -122,9 +122,6 @@ var kitchens = [
 ]
 
 
-
-
-
 var bedrooms = [
 
 {
@@ -150,7 +147,7 @@ var bedrooms = [
 {
 
 "day": "05.5.20",
-"description": "Is my mom's birthday today, so I asked her how did she celebrate and she said that she planned to have lunch with your aunt, and so I said is so nice that she still remembers your birthday and then she said oh no I told her is my birthday. This is so awkward", 
+"description": "Is my mom's birthday today, so I asked her how did she celebrated and she said that she planned to have lunch with your aunt, and so I said is so nice that she still remembers your birthday and then she said oh no I told her is my birthday. This is so awkward", 
 "observations": "bedroom"
 
 }

@@ -154,48 +154,35 @@ var dates = [
 ]
 
 
-// for(var i=0; i<dates.length; i++){
-// 	var date = $('<div/>', {
-// 			'class': 'box'
-// 		})
-// 	    .data('date', dates[i])
-// 		.data('clicked', false)
-// 		.html(dates[i].day)
-// 		.css({'background-color': dates[i].observations})
-// 			.click(function(){
-// 			if($(this).data('clicked') ===  false){
-// 				$(this).append( '<span> ' +  $(this).data("date").description+ '</span>')
-// 				$(this).data('clicked', true)
-// 			}
-// 			else{
-// 				$(this).find('span').remove()
-// 				$(this).data('clicked', false)
-// 			}
-// 		})
-
-// 	$('#text').append(date)
-// }
 
 
 
 
+for(var i=0; i<dates.length; i++){
+	var date = $('<div/>', {
+			'class': 'box'
+		})
+	    .data('date', dates[i])
+		.data('clicked', false)
+		.html(dates[i].day)
+		.css({'background-color': dates[i].observations})
+			.click(function(){
+			if($(this).data('clicked') ===  false){
+				$(this).append( '<span> ' +  $(this).data("date").description+ '</span>')
+				$(this).data('clicked', true)
+			}
+			else{
+				$(this).find('span').remove()
+				$(this).data('clicked', false)
+			}
+		})
+
+	$('#text').append(date)
+}
 
 
 
-$(document).ready(function() {
-for(var i = 0; i<dates.length; i++) {
-    console.log(dates[i])
-    var date = $('<div/>', {
-  			'class': 'box'
-  		  })
-        .html( "<p>" + dates[i].day + "</p>")
-        .css({ "position" : "absolute",
-                 "left" : dates[i].left,
-                 "top" : dates[i].top 
-               })
-    $('.house').append(date)
-  }
-})
+
 
 
 
