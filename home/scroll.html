@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 	<title>Scroll</title>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<script type="text/javascript" src="main2.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 
 
 	<a href="index.html">To Home</a>
@@ -21,11 +22,13 @@
 		}
 
 		.scrollBox .emoji {
+			font-family: 'Patrick Hand', cursive;
 			position: fixed;
-			font-size: 100px;
+			font-size: 20px;
 			top:40vh;
-			left: 45vw;
+			left: 45%;
 		}
+
 	</style>
 
 </head>
@@ -38,14 +41,16 @@
 	<script type="text/javascript">
 
 		//adds a div onto the page for each element in the fruits array
-		for(var i=0; i<bedrooms.length; i++){
-			var bedroomDiv = $('<div/>', {
+		for(var i=0; i<dates.length; i++){
+			var datesDiv = $('<div/>', {
 					id: i,
 					'class': 'scrollBox'
 				})
-				.html('<div class="emoji">' + bedrooms[i].description + '</div>')
-			$('#scrollContainer').append(bedroomDiv)
+				.html('<div class="emoji">' + dates[i].description + '</div>')
+			$('#scrollContainer').append(datesDiv)
 		}
+
+
 
 		//this function will run when the page is scrolled
 		$(window).scroll(function() {

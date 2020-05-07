@@ -13,7 +13,7 @@ var dates = [
  {
 
 "day": "04.12.20",
-"description": "My sister came to visit me with some groceries and told me to cook and stay safe. Me and my sister are very close since we were young but after going off to college in the US, I don’t get to see her as often, probably only once or twice a year. It’s really sad at this special time, we can’t live together because my brother in law is still at work, and my family thinks that it would be dangerous for me to be living with them since there is a chance of getting infected. ",
+"description": "My sister came to visit me with some groceries and told me to cook and stay safe. Me and my sister are very close since we were young but after going off to college in the US, I don’t get to see her as often, probably only once or twice a year. It’s really sad at this special time, we can’t live together because my brother in law is still at work, and my family thinks that it would be dangerous for me to be living with them since there is a chance of getting infected",
 "observations": "livingroom",
 "left" : "200px",
 "top" : "200px"
@@ -183,6 +183,35 @@ for(var i=0; i<dates.length; i++){
 
 
 
+function myFunction() {
+  var x = document.getElementById("text");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+
+
+
+
+
+// $(document).ready(function() {
+// for(var i = 0; i<dates.length; i++) {
+//     console.log(dates[i])
+//     var date = $('<div/>', {
+//   			'class': 'box'
+//   		  })
+//         .html( "<p>" + dates[i].day + "</p>")
+//         .css({ "position" : "absolute",
+//                  "left" : dates[i].left,
+//                  "top" : dates[i].top 
+//                })
+//     $('.house').append(date)
+//   }
+// })
 
 
 
